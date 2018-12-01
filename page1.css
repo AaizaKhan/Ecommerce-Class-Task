@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Zilla Slab', serif;
+}
+
+header{
+	height: 135px;
+	background-color: #eef3f7; /*#dae8f3; #eef3f7*/
+}
+
+header h2{
+	font-size: 32px;
+    padding-top: 32px;
+}
+
+header span{
+	display: block;
+    letter-spacing: 7px;
+    margin-top: -12px;
+}
+
+header div{
+	float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 1px solid #a3cbd2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #131212;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #e0f0f3;
+}
+
+.active {
+    background-color: #a3cbd2;
+}
+
+.div1{
+	width: 290px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2px;
+}
+
+.div1 a{
+	margin-left: 97px;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.div1 button{
+	padding: 10px;
+	margin-left: 92px;
+    margin-top: 15px;
+}
+
+.div2{
+	width: 290px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+}
+
+.div2 a{
+	margin-left: 85px;
+	font-size: 21px;
+    text-decoration: none;
+}
+
+.div2 button{
+	padding: 10px;
+	margin-left: 97px;
+    margin-top: 15px;
+}
+
+.div3{
+	width: 290px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+}
+
+.div3 a{
+	margin-left: 64px;
+	font-size: 21px;
+    text-decoration: none;
+}
+
+.div3 button{
+	padding: 10px;
+	margin-left: 95px;
+    margin-top: 15px;
+}
+
+.div4{
+	width: 290px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+}
+
+.div4 a{
+	margin-left: 80px;
+	font-size: 21px;
+    text-decoration: none;
+}
+
+.div4 button{
+	padding: 10px;
+	margin-left: 95px;
+    margin-top: 15px;
+}
+
+footer{
+	margin-top: 150px;
+	height: 135px;
+	background-color: #eef3f7;
+
+}
+
+footer p{
+	padding-top: 59px;
+}
+
+footer div img{
+	float: right;
+	margin-top: -60px;
+}
+
+div a:link {color:#000000;}
+div a:visited {color: #006600}
+div a:hover {color: #FFCC00}
+div a:active {color: #FF00CC}
+
+.maindiv{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+@media screen and (max-width: 600px) {
+        
+        ul li{
+               float: none;
+               width: 100%;
+            }
+
+        header h2{
+        	text-align: center;
+
+        }
+
+        header span{
+        	text-align: center;
+        }
+
+        footer{
+        	display: block;
+		    float: none;
+		    width: 100%;
+        }
+
+         .maindiv div{
+
+         	
+         	margin-top: 80px;
+        }
+
+}

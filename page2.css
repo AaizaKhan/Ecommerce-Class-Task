@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Zilla Slab', serif;
+}
+
+header{
+    height: 135px;
+    background-color: #eef3f7; /*#dae8f3; #eef3f7*/
+}
+
+header h2{
+    font-size: 32px;
+    padding-top: 32px;
+    font-weight: bold;
+}
+
+header span{
+    display: block;
+    letter-spacing: 7px;
+    margin-top: -28px;
+}
+
+header div{
+    float: right;
+}
+
+#name{
+    font-family: Corbert;
+    font-size: 50px;
+    color: #ddd3d8;
+}
+
+#label{ 
+    font-size: 15px;
+    font-weight: normal;
+    padding: 3px 5px 3px;
+    background: white;
+    border: 2px solid #ddd3d8;
+    border-radius: 2px;
+    color: #000000;
+    font-family: Corbert;    
+}
+
+
+.button{
+    background: #ddd3d8;
+    width: 435px;
+    height: 50px;
+
+}
+
+.button span{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Corbert;
+}
+
+
+.buttonA{
+    background: white;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #ddd3d8;
+}
+
+.price{
+    font-family: Corbert;
+    font-size: 40px;
+    color: #000000;
+}
+
+footer{
+    margin-top: 150px;
+    height: 135px;
+    background-color: #eef3f7;
+
+}
+
+footer p{
+    padding-top: 59px;
+}
+
+footer div img{
+    float: right;
+    margin-top: -60px;
+}
